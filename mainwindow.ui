@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry"><rect><x>0</x><y>0</y><width>600</width><height>540</height></rect></property>
+  <property name="windowTitle"><string>Лабораторна робота 1 — Scroll Bar</string></property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="titleLabel">
+    <property name="geometry"><rect><x>20</x><y>12</y><width>560</width><height>28</height></rect></property>
+    <property name="font"><font><pointsize>12</pointsize><bold>true</bold></font></property>
+    <property name="text"><string>Варіант 10: Scroll Bar — зміна форми та положення повзунка</string></property>
+   </widget>
+   <widget class="QFrame" name="fieldFrame">
+    <property name="geometry"><rect><x>20</x><y>48</y><width>560</width><height>280</height></rect></property>
+    <property name="frameShape"><enum>QFrame::Box</enum></property>
+    <widget class="QScrollBar" name="scrollBar">
+     <property name="geometry"><rect><x>30</x><y>60</y><width>400</width><height>24</height></rect></property>
+     <property name="maximum"><number>100</number></property>
+     <property name="orientation"><enum>Qt::Horizontal</enum></property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="startButton">
+    <property name="geometry"><rect><x>20</x><y>340</y><width>140</width><height>32</height></rect></property>
+    <property name="text"><string>Запустити</string></property>
+   </widget>
+   <widget class="QPushButton" name="stopButton">
+    <property name="geometry"><rect><x>170</x><y>340</y><width>140</width><height>32</height></rect></property>
+    <property name="text"><string>Зупинити</string></property>
+   </widget>
+   <widget class="QLabel" name="valueLabel">
+    <property name="geometry"><rect><x>330</x><y>344</y><width>250</width><height>24</height></rect></property>
+    <property name="text"><string>Положення повзунка: 0</string></property>
+   </widget>
+   <widget class="QListWidget" name="logList">
+    <property name="geometry"><rect><x>20</x><y>384</y><width>560</width><height>140</height></rect></property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,3 @@
+positionInterval=300
+formInterval=2000
+step=5
