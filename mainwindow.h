@@ -43,4 +43,4 @@ private:
     int formIndex;
 };
 
-#endif // MAINWINDOW_H
+#endif
